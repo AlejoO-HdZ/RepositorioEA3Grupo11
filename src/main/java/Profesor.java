@@ -5,9 +5,9 @@ public class Profesor extends Persona { //Aqui con palabra clave EXTENDS profeso
     private String especialidad; //Se agrega atributo nuevo
     private String nivelAcademico; // se agrega atributo nuevo
 
-    // PUNTO 1d) CREACION DE UN TDA : Se usa ArrayList para almacenar 50 REGISTROS de profesores dinámicamente
-    private static ArrayList<Profesor> listaProfesores = new ArrayList<>();
-    /** Constructor de la clase Profesor.
+    // PUNTO 1d) CREACION DE UN TDA (ArrayList) : Se usa ArrayList para almacenar 50 REGISTROS dinamicos del objeto profesor
+    private static ArrayList<Profesor> listaProfesores = new ArrayList<>(); //ArrayList: permite un almacenamiento mas dinamico.
+    /**Constructor de la clase Profesor.
      * @param nombre Nombre del profesor.
      * @param apellido Apellido del profesor.
      * @param fechaNacimiento Fecha de nacimiento en formato YYYY-MM-DD.
